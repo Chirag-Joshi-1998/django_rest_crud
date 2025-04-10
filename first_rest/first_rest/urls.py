@@ -21,6 +21,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('stuinfo/<int:pk>',views.student_detail),
     path('stuinfo/',views.student_list),
+    path('student_create/',views.student_create,name='student_create')
+
+
 
 
 ]
